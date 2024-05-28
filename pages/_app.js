@@ -6,6 +6,7 @@ import MainLayout from "layouts/main";
 import { DefaultSeo } from "next-seo";
 import Script from "next/script";
 import { useRouter } from "next/router";
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -57,6 +58,7 @@ function MyApp({ Component, pageProps }) {
           ]}
         />
 
+        {/*
         {process.env.NODE_ENV == "production" ? (
           // Analytics Script
           <Script
@@ -68,6 +70,9 @@ function MyApp({ Component, pageProps }) {
         ) : (
           ""
         )}
+        */}
+
+        <Analytics />
 
         <MainLayout>
           <Component {...pageProps} />
