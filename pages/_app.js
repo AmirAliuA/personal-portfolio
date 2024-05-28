@@ -1,0 +1,80 @@
+import { useEffect } from "react";
+import { ThemeProvider } from "next-themes";
+import "styles/app.scss";
+import "styles/blog.scss";
+import MainLayout from "layouts/main";
+import { DefaultSeo } from "next-seo";
+import Script from "next/script";
+import { useRouter } from "next/router";
+
+function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const canonicalUrl = (
+    `https://amiraliu.vercel.app` + (router.asPath === "/" ? "" : router.asPath)
+  ).split("?")[0];
+
+  useEffect(() => {
+    window.addEventListener("message", (event) => {
+      console.log(
+        "Message received from the child: " + event?.data,
+        event?.data?.message,
+        event?.data?.blob
+      ); // Message received from child
+    });
+  }, []);
+
+  return (
+    <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>
+      <>
+        <DefaultSeo
+          title="Hi, I'm Amir Aliu!"
+          description="I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, networking & UI/UX design."
+          canonical={canonicalUrl}
+          openGraph={{
+            site_name: "Hi, I'm Amir Aliu!",
+            title: "Hi, I'm Amir Aliu!",
+            description:
+              "I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, networking & UI/UX design.",
+            images: [
+              {
+                url: "https://amiraliu.vercel.app/images/site/meta.jpg",
+                width: 800,
+                height: 600,
+                alt: "Amir Aliu",
+              },
+            ],
+          }}
+          twitter={{
+            handle: "@amiraliudev",
+            site: "@amiraliudev",
+            cardType: "summary_large_image",
+          }}
+          additionalLinkTags={[
+            {
+              rel: "apple-touch-icon",
+              href: "/touch-icons/main-icon.png",
+            },
+          ]}
+        />
+
+        {process.env.NODE_ENV == "production" ? (
+          // Analytics Script
+          <Script
+            src="https://api.pirsch.io/pirsch.js"
+            id="pirschjs"
+            data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
+            strategy="afterInteractive"
+          />
+        ) : (
+          ""
+        )}
+
+        <MainLayout>
+          <Component {...pageProps} />
+        </MainLayout>
+      </>
+    </ThemeProvider>
+  );
+}
+
+export default MyApp;
