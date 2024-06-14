@@ -17,5 +17,12 @@ Fed up with waiting for Valve to take action, I decided to take matters into my 
 
 So, to Valve, I say this: thank you for providing us with an incredible platform that has brought joy and entertainment to millions around the world. But please, it barely takes 10 seconds for you to fix this.
 
+---
+
+# Download Extension
+Firefox Browser: https://addons.mozilla.org/en-US/firefox/addon/kosovo-flag-fixer-for-steam/
+
+---
+
 # Result after Installing Extension
 ![Result after Installing Extension](https://raw.githubusercontent.com/AmirAliuA/steam-kosovo-flag/main/result.png)
