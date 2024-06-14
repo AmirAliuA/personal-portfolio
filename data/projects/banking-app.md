@@ -5,7 +5,7 @@ slug: banking-app
 tech: ["C#", "Xunit", "Interpreted Pattern Design"]
 web: https://github.com/AmirAliuA/banking-app
 icon: /images/work/index/banking-app/c-sharp-logo.png
-active: true
+active: false
 tagline: Simple banking application that follows the Interpreter Pattern
 ---
 

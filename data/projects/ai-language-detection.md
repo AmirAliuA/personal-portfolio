@@ -5,7 +5,7 @@ slug: ai-language-detection
 tech: ["Python", "Pandas", "Numpy", "Scikit-Learn", "Tabulate"]
 web: https://github.com/AmirAliuA/ai-language-detection
 icon: /images/work/index/ai-language-detection/python-logo.png
-active: true
+active: false
 tagline: AI Language Detection using Python
 ---
 
