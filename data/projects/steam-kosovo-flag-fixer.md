@@ -10,6 +10,9 @@ active: true
 tagline: A browser extension that fixes Kosovo's flag on Steam Community profile page
 ---
 
+# Read full blog post here
+https://amiraliu.vercel.app/blog/steam-browser-extension
+
 This is a very simple extension that fixes the missing Kosovo flag on steamcommunity profile.
     
 The extension detects if you're browsing a Steam profile on steamcommunity.com. If it is able
