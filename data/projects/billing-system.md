@@ -2,7 +2,7 @@
 date: 2022-03-09 12:00:00 +0530
 slug: billing-system
 title: "Billing System (C#)"
-web: "https://github.com/AmirAliuA/billing-system"
+ios: "https://github.com/AmirAliuA/billing-system"
 tech: ["C# (Tier 3 Architecture)", "Windows Presentation Foundation (WPF)", "Microsoft SQL Server 2018"]
 icon: "/images/work/index/billing-system/c-sharp-logo.png"
 tagline: A simple Billing System written for a University Assignment

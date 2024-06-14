@@ -3,7 +3,7 @@ date: 2023-05-15 02:10:00 +0530
 title: "Banking App"
 slug: banking-app
 tech: ["C#", "Xunit", "Interpreted Pattern Design"]
-web: https://github.com/AmirAliuA/banking-app
+ios: https://github.com/AmirAliuA/banking-app
 icon: /images/work/index/banking-app/c-sharp-logo.png
 active: false
 tagline: Simple banking application that follows the Interpreter Pattern

@@ -2,7 +2,7 @@
 date: 2022-01-30 00:00:00 +0530
 title: "Arduino Uno Traffic Lights"
 tech: ["C++", "Arduino Uno"]
-web: https://github.com/AmirAliuA/Basic-Arduino-Traffic-Light
+ios: https://github.com/AmirAliuA/Basic-Arduino-Traffic-Light
 icon: /images/work/index/arduino-project/arduino.png
 slug: arduino-project
 tagline: Traffic light project in Arduino Uno

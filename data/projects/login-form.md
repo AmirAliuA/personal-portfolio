@@ -2,7 +2,7 @@
 date: 2021-04-13 00:00:00 +0530
 title: "Login Form (C#)"
 tech: ["C#", "Microsoft SQL Server 2019"]
-web: https://github.com/AmirAliuA/loginform_amiraliu
+ios: https://github.com/AmirAliuA/loginform_amiraliu
 icon: /images/work/index/login-form/c-sharp-logo.png
 slug: login-form
 tagline: C# login form assignment given by university professor
