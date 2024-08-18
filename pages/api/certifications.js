@@ -2,15 +2,15 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
-const postsDirectory = join(process.cwd(), "data/blog");
+const certificationsDirectory = join(process.cwd(), "data/certifications");
 
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
+export function getCertificationSlugs() {
+  return fs.readdirSync(certificationsDirectory);
 }
 
-export function getPostBySlug(slug, fields = []) {
+export function getCertificationBySlug(slug, fields = []) {
   const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
+  const fullPath = join(certificationsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
   const items = {};
@@ -20,6 +20,7 @@ export function getPostBySlug(slug, fields = []) {
     if (field === "slug") {
       items[field] = realSlug;
     }
+
     if (field === "content") {
       items[field] = content;
     }
@@ -32,11 +33,11 @@ export function getPostBySlug(slug, fields = []) {
   return items;
 }
 
-export function getAllPosts(fields = []) {
-  const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    // sort posts by date in descending order
+export function getAllCertifications(fields = []) {
+  const slugs = getCertificationSlugs();
+  const certifications = slugs
+    .map((slug) => getCertificationBySlug(slug, fields))
+    // sort certifications by date in descending order
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
-  return posts;
+  return certifications;
 }

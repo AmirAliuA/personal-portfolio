@@ -114,6 +114,7 @@ export async function getStaticPaths() {
     "content",
     "ogImage",
   ]);
+  
   const posts = getAllPosts(["slug"]);
 
   return {

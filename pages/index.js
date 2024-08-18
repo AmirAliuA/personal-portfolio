@@ -24,6 +24,7 @@ export default function Home({ allPosts, allProjects, post }) {
             I'm a full-stack developer based in Kosovo with a passion for web & software development.
             On the side, I have huge interests in game development, cybersecurity, networking & UI/UX design.
           </div>
+
         </div>
         <div className="pt-6 pb-2">
           <h2 className="text-xl font-medium text-black dark:text-white mb-4">
@@ -100,6 +101,16 @@ export default function Home({ allPosts, allProjects, post }) {
                 </Link>
               </div>
             ))}
+          </div>
+        </div>
+        <div className="pt-8 pb-2">
+          <div className="flex items-center gap-3 pb-3">
+            <h2 className=" text-xl font-medium text-black dark:text-white">
+              Certifications
+            </h2>
+            <Button variant="secondary" className="text-sm" href="/certifications" as="a">
+              View all certifications →
+            </Button>
           </div>
         </div>
         <div className="pt-8 pb-2">

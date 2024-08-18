@@ -70,24 +70,17 @@ export default function Sidebar() {
       active: pathname.includes("/projects"),
     },
     {
+      title: "Certifications",
+      url: "/certifications",
+      icon: <BracketsCurly size={16} />,
+      active: pathname.includes("/certifications"),
+    },
+    {
       title: "Blog",
       url: "/blog",
       icon: <Note size={16} />,
       active: pathname.includes("/blog"),
     },
-    // {
-    //   title: "Experiments",
-    //   url: "/experiments",
-    //   icon: <Flask size={16} />,
-    //   active: pathname.includes("/experiments"),
-    // },
-    // {
-    //   title: "Newsletter",
-    //   url: "https://thelifeofrishi.substack.com",
-    //   icon: <Newspaper size={16} />,
-    //   active: false,
-    //   external: true,
-    // },
     {
       title: "Resume",
       url: "amir_aliu_resume.pdf",
@@ -110,12 +103,6 @@ export default function Sidebar() {
       icon: <TwitterLogo size={16} />,
       external: true,
     },
-    // {
-    //   title: "Buy me a Coffee",
-    //   url: `https://www.buymeacoffee.com/thelifeofrishi`,
-    //   icon: <Coffee size={16} />,
-    //   external: true,
-    // },
     {
       title: "aaliu272@gmail.com",
       url: `mailto:aaliu272@gmail.com`,
