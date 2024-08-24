@@ -9,7 +9,7 @@ active: false
 tagline: Simple banking application that follows the Interpreter Pattern
 ---
 
-![Pika Screenshot](/images/work/index/banking-app/console-banking-app.png)
+![App Screenshot](/images/work/index/banking-app/console-banking-app.png)
 
 This C# program is a simple banking application that follows the Interpreter Pattern. Let's break down the key components and their functionalities:
 
