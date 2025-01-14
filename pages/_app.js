@@ -29,13 +29,13 @@ function MyApp({ Component, pageProps }) {
       <>
         <DefaultSeo
           title="Amir Aliu - Portfolio"
-          description="I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, networking & UI/UX design."
+          description="I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, and networking."
           canonical={canonicalUrl}
           openGraph={{
             site_name: "Amir Aliu - Portfolio",
             title: "Amir Aliu - Portfolio",
             description:
-              "I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, networking & UI/UX design.",
+              "I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, and networking.",
             images: [
               {
                 url: "https://amiraliu.vercel.app/images/site/meta.jpg",
@@ -57,20 +57,6 @@ function MyApp({ Component, pageProps }) {
             },
           ]}
         />
-
-        {/*
-        {process.env.NODE_ENV == "production" ? (
-          // Analytics Script
-          <Script
-            src="https://api.pirsch.io/pirsch.js"
-            id="pirschjs"
-            data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
-            strategy="afterInteractive"
-          />
-        ) : (
-          ""
-        )}
-        */}
 
         <Analytics />
 

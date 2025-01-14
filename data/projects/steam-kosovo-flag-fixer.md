@@ -26,8 +26,10 @@ into my own hands and developed this solution. Thanks for doing nothing over a s
 
 ---
 
-# Download Extension
+### Download Extension
 Firefox Browser: https://addons.mozilla.org/en-US/firefox/addon/kosovo-flag-fixer-for-steam/
+\
+Chrome Browser: I'm not paying $5 to upload MY OWN work to a conglomerate. Download the source code and install it locally. 
 
 ---
 

@@ -9,11 +9,7 @@ export default function WorkList({ allPosts, activeSlug }) {
 
   return (
     <div className="w-full">
-      <div
-      // className={clsx(
-      //   "bg-gray-50 dark:bg-gray-900 overflow-auto rounded-lg h-full border border-gray-200/50 dark:border-gray-800/50"
-      // )}
-      >
+      <div>
         <h2 className="font-medium text-black text-2xl mb-4 mt-4">
           Projects
         </h2>

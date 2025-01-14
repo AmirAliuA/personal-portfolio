@@ -22,7 +22,7 @@ export default function Home({ allPosts, allProjects, post }) {
           </h2>
           <div>
             I'm a full-stack developer based in Kosovo with a passion for web & software development.
-            On the side, I have huge interests in game development, cybersecurity, networking & UI/UX design.
+            On the side, I have huge interests in game development, cybersecurity, and networking.
           </div>
 
         </div>

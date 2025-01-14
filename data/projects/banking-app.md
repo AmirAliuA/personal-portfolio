@@ -6,10 +6,8 @@ tech: ["C#", "Xunit", "Interpreted Pattern Design"]
 ios: https://github.com/AmirAliuA/banking-app
 icon: /images/work/index/banking-app/c-sharp-logo.png
 active: false
-tagline: Simple banking application that follows the Interpreter Pattern
+tagline: Simple C# banking application that follows the Interpreter Pattern
 ---
-
-![App Screenshot](/images/work/index/banking-app/console-banking-app.png)
 
 This C# program is a simple banking application that follows the Interpreter Pattern. Let's break down the key components and their functionalities:
 
@@ -51,3 +49,5 @@ This C# program is a simple banking application that follows the Interpreter Pat
 **Example Flow:**
 1. User chooses option 1: Check Balance.
 2. The CheckBalanceExpression is instantiated, and its Interpret method is called to display the account balance.
+
+![App Screenshot](/images/work/index/banking-app/console-banking-app.png)
