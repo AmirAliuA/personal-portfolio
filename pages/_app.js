@@ -15,8 +15,6 @@ function MyApp({ Component, pageProps }) {
   ).split("?")[0];
 
   useEffect(() => {
-    initializeAmplitude();
-    
     window.addEventListener("message", (event) => {
       console.log(
         "Message received from the child: " + event?.data,
