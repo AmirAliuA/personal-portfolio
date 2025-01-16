@@ -25,13 +25,6 @@ export default function Sidebar() {
   const [mobileNav, showMobileNav] = useState(false);
   const { theme, setTheme } = useTheme();
 
-  const handleResumeDownload = () => {
-    amplitude.track('Resume Downloaded', {
-      file: 'amir-aliu-resume.pdf',
-      timestamp: new Date().toISOString(),
-    });
-  };
-
   const SOCIAL_LINKS = [
     {
       title: "Email",
@@ -91,7 +84,6 @@ export default function Sidebar() {
       icon: <IdentificationCard size={16} />,
       active: false,
       external: true,
-      onClick: handleResumeDownload, 
     },
   ];
 
