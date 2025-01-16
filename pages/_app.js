@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
             cardType: "summary_large_image",
             title: "Amir Aliu - Portfolio",
             description: "I'm a full-stack developer based in Kosovo with a passion for web & software development. On the side, I have huge interests in game development, cybersecurity, and networking.",
-            image: "https://amiraliu.vercel.app/images/site/meta.jpg",
+            image: "/images/site/meta.jpg",
           }}
           additionalLinkTags={[
             {
