@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }) {
           ]}
         />
 
-        <Analytics /> { /* Vercel Analytics */ }
+        <Analytics />
 
         <MainLayout>
           <Component {...pageProps} />

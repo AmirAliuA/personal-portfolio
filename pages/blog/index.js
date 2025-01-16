@@ -8,12 +8,12 @@ export default function Blog({ allPosts }) {
     <>
       <NextSeo
         title="Blog - Amir Aliu"
-        description="I write about everything here."
+        description="Sharing insights, updates, and thoughts on the projects I'm working on, plus a bit of everything else."
         openGraph={{
           site_name: "Blog - Amir Aliu",
           title: "Blog - Amir Aliu",
           description:
-            "I write about everything here.",
+            "Sharing insights, updates, and thoughts on the projects I'm working on, plus a bit of everything else.",
         }}
         twitter={{
           handle: "@amiraliudev",
