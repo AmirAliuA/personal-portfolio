@@ -15,6 +15,8 @@ function MyApp({ Component, pageProps }) {
   ).split("?")[0];
 
   useEffect(() => {
+    initializeAmplitude();
+    
     window.addEventListener("message", (event) => {
       console.log(
         "Message received from the child: " + event?.data,
@@ -58,7 +60,7 @@ function MyApp({ Component, pageProps }) {
           ]}
         />
 
-        <Analytics />
+        <Analytics /> { /* Vercel Analytics */ }
 
         <MainLayout>
           <Component {...pageProps} />
