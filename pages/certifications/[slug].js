@@ -28,11 +28,6 @@ export default function Post({ allPosts, post }) {
           site_name: `${post.title} - Amir Aliu`,
           images: [
             {
-              url:
-                post.ogImage ??
-                `${process.env.NEXT_PUBLIC_APP_URL}/api/og?title=${
-                  post.title
-                }`,
               width: 800,
               height: 600,
             },
