@@ -6,7 +6,7 @@ categories: personal
 excerpt: Silent Hill 2 Remake - A Masterclass in Revitalizing Horror
 ---
 
-![Silent Hill PAL Cover](/images/posts/silent-hill-two-remake/post-cover.jpg)
+![Silent Hill 2 Differences](/images/posts/silent-hill-two-remake/post-cover.jpg)
 
 ---
 

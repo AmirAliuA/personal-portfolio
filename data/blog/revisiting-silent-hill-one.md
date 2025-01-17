@@ -6,7 +6,7 @@ categories: personal
 excerpt: Revisiting Silent Hill 1 - A Journey Back to the Roots of Survival Horror
 ---
 
-![Silent Hill PAL Cover](/images/posts/revisiting-silent-hill-one/silent-hill-cover.jpg)
+![Silent Hill PAL Cover](/images/posts/revisiting-silent-hill-one/silent-hill-cover.JPG)
 
 ---
 
