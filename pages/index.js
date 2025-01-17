@@ -108,7 +108,7 @@ export default function Home({ allPosts, allProjects, post }) {
             <h2 className=" text-xl font-medium text-black dark:text-white">
               Certifications
             </h2>
-            <Button variant="secondary" className="text-sm" href="/certifications" as="a">
+            <Button variant="view-all-certifications" className="text-sm" href="/certifications" as="a">
               View all certifications →
             </Button>
           </div>
@@ -118,7 +118,7 @@ export default function Home({ allPosts, allProjects, post }) {
             <h2 className=" text-xl font-medium text-black dark:text-white">
               Blog
             </h2>
-            <Button variant="secondary" className="text-sm" href="/blog" as="a">
+            <Button variant="view-blog-posts" className="text-sm" href="/blog" as="a">
               View all blog posts →
             </Button>
           </div>

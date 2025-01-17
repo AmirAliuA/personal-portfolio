@@ -25,6 +25,10 @@ export default function Button(props) {
         return `w-full px-4 py-2 md:py-[8px] text-white rounded-lg bg-gradient-to-br from-red-400 to-pink-600 hover:scale-[0.98] active:scale-[0.95] border border-transparent dark:border-transparent shadow-lg flex items-center justify-center duration-100 cursor-pointer`;
       case "secondary":
         return `relative flex items-center justify-center px-2 py-[3px] rounded-lg cursor-pointer group text-sm text-gray-900 shadow-sm border border-gray-300 min-h-[28px] dark:border-gray-700 dark:text-gray-200 hover:scale-[0.98] bg-white dark:bg-gray-900 duration-100`;
+      case "view-all-certifications":
+        return `relative flex items-center justify-center px-2 py-[3px] rounded-lg cursor-pointer group text-sm text-gray-900 shadow-sm border border-gray-300 min-h-[28px] dark:border-gray-700 dark:text-gray-200 hover:scale-[0.98] duration-100`;
+      case "view-blog-posts":
+        return `relative flex items-center justify-center px-2 py-[3px] rounded-lg cursor-pointer group text-sm text-gray-900 shadow-sm border border-gray-300 min-h-[28px] dark:border-gray-700 dark:text-gray-200 hover:scale-[0.98] duration-100`;
       case "ternary":
         return clsx(
           "py-[2.4px] px-3 flex items-center relative rounded-[7px] cursor-pointer",
